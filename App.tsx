@@ -1,11 +1,13 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
+import { LoginScreen }  from './src/screens'
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>BoxieApp</Text>
+      <LoginScreen/>
       <StatusBar style="auto" />
     </View>
   );
