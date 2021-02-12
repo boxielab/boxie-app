@@ -1,6 +1,7 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { LoginScreen } from './src/screens';
 
 const styles = StyleSheet.create({
   container: {
@@ -15,6 +16,7 @@ export default function App(): JSX.Element {
   return (
     <View style={styles.container}>
       <Text>BoxieApp</Text>
+      <LoginScreen />
       <StatusBar />
     </View>
   );
